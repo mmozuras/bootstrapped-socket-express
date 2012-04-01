@@ -8,7 +8,8 @@
     "connect-assets": "2.1.x",
     "jade": "0.x.x",
     "stylus": "*",
-    "nib": "0.3.x"
+    "nib": "0.3.x",
+    "socket.io": "0.9.x"
   },
   "devDependencies": {
     "mocha": "*",
