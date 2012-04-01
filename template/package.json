@@ -6,9 +6,8 @@
     "coffee-script": "1.2.x",
     "express": "2.5.x",
     "connect-assets": "2.1.x",
-    "jade": "0.x.x",
+    "jade": "*",
     "stylus": "*",
-    "nib": "0.3.x",
     "socket.io": "0.9.x"
   },
   "devDependencies": {
