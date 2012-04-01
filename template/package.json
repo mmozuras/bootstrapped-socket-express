@@ -1,0 +1,16 @@
+{
+  "name": "YOUR_APP_NAME",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "coffee-script": "1.2.x",
+    "express": "2.5.x",
+    "jade": "0.x.x",
+    "stylus": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "engine": "node ~> 0.6.x"
+}
