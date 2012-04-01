@@ -1,0 +1,31 @@
+#!/usr/bin/env node
+
+var commander = require('commander'),
+    wrench = require('wrench'),
+    util = require('util'),
+    path = require('path'),
+    log = console.log;
+
+commander
+  .usage('new <your_app_name>')
+  .parse(process.argv);
+
+switch (commander.args[0]) {
+  case 'new':
+    var name = commander.args[1];
+    if (name === void 0) {
+      return log("Please provide a name for your application: $> bootstrapped new <your_app_name>");
+    }
+
+    var source = path.join(__dirname, '/../template');
+    wrench.copyDirSyncRecursive(source, name);
+    log("Success!");
+    log("Next, you should:");
+    log("    cd " + name);
+    log("    sudo npm install");
+    log("And to start your app:");
+    return log("    node server.js");
+
+  default:
+    return log('Type "bootstrapped new <your_app_name>" to create a new application');
+}
