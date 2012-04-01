@@ -34,4 +34,4 @@ To run it for the first time:
 
 ## License
 
-MIT - see license.txt for more.
+MIT - see LICENSE for more.
