@@ -10,7 +10,26 @@ head
   meta(name='author', content='AUTHOR')
   meta(name="viewport", content="width=device-width, initial-scale=1.0")
 
-body
+  != css('bootstrap')
+  != css('bootstrap-responsive')
+
+body(style="padding-top: 60px; padding-bottom: 40px;")
+  .navbar.navbar-fixed-top
+    .navbar-inner
+      .container
+        a.btn.btn-navbar(data-toggle="collapse", data-target=".nav-collapse")
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+        a.brand(href="#") YOUR_APP_NAME
+        .nav-collapse
+          ul.nav
+            li.active
+              a(href="#") Home
+
   != body
+
+  != js('jquery')
+  != js('bootstrap')
 
 | </html>
