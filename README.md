@@ -31,3 +31,7 @@ To run it for the first time:
     cd your_app_name
     npm install
     node server.js
+
+## License
+
+MIT - see license.txt for more.
