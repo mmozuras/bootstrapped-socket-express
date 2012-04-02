@@ -34,4 +34,4 @@ To run it for the first time:
 
 ## License
 
-MIT - see LICENSE for more.
+[MIT License](https://github.com/mmozuras/bootstrapped-socket-express/blob/master/LICENSE)

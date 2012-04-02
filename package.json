@@ -2,7 +2,7 @@
   "name": "bootstrapped-socket-express",
   "description": "Node.js project template using express, Socket.IO, Bootstrap and CoffeeScript.",
   "version": "0.0.1",
-  "homepage": "https://github.com/mmozuras/bootstrapped-socket-express",
+  "homepage": "http://mmozuras.github.com/bootstrapped-socket-express/",
   "author": "Mindaugas Mozūras <mindaugas.mozuras@gmail.com>",
   "repository": {
     "type": "git",
