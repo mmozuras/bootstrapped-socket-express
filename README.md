@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/mmozuras/bootstrapped-socket-express.png)](http://travis-ci.org/mmozuras/bootstrapped-socket-express)
 # Bootstrapped Socket-Express
 
 [Node.js](http://nodejs.org) project template using [express](http://expressjs.com), [Socket.IO](http://socket.io), [Bootstrap](http://twitter.github.com/bootstrap) and [CoffeeScript](http://coffeescript.org).
