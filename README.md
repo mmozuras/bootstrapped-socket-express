@@ -16,7 +16,7 @@ This template uses:
 
 For development it also includes:
 
-* [mocha](http://visionmedia.github.com/mocha/)
+* [mocha](http://mochajs.org/)
 * [should](https://github.com/visionmedia/should.js)
 
 ## Getting Started
